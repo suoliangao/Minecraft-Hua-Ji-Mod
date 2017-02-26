@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "hua_ji_mod:block/hua_ji_ingot_block"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "hua_ji_mod:item/hua_ji_ingot"
+    }
+}

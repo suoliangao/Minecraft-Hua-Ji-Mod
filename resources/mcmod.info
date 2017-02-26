@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Hua Ji Mod",
+  "name": "Hua Ji Mod",
+  "description": "Hua Ji",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "null",
+  "updateUrl": "null",
+  "authorList": ["SuoLianGao"],
+  "credits": "Notch, Cpw, etc.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

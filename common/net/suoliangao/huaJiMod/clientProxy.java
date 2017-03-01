@@ -14,6 +14,8 @@ public class clientProxy extends commonProxy{
 		itemRegister.myRegisterClient();
 		blockRegister.myRegisterClient();
     }
+		
+		
 	
 	@Override
     public void init(FMLInitializationEvent event)

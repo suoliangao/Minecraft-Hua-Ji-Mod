@@ -3,4 +3,6 @@ item.hua_ji_mod.hua_ji_ingot.name=滑稽锭
 item.hua_ji_mod.hua_ji_apple.name=滑稽果
 
 tile.hua_ji_mod.hua_ji_block.name=滑稽块
-tile.hua_ji_mod.hua_ji_block_ingot.name=滑稽金属块
+tile.hua_ji_mod.hua_ji_ingot_block.name=滑稽金属块
+tile.hua_ji_mod.hua_ji_ore.name=滑稽矿石
+tile.hua_ji_mod.hua_ji_ore_nether.name=下界滑稽矿石

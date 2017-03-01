@@ -10,7 +10,7 @@ public class main {
 	
 	public static final String MODID = "hua_ji_mod";
 	public static final String MODNAME = "Hua Ji Mod";
-	public static final String VERSION = "0.0.1t";
+	public static final String VERSION = "0.1.0";
 	
     @SidedProxy(clientSide = "net.suoliangao.huaJiMod.clientProxy", serverSide = "net.suoliangao.huaJiMod.commonProxy")
     public static commonProxy proxy;

@@ -1,6 +1,5 @@
 package net.suoliangao.huaJiMod.registry;
 
-import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -8,11 +7,9 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.suoliangao.huaJiMod.main;
 import net.suoliangao.huaJiMod.block.myBlock;
+import net.suoliangao.huaJiMod.Block;
 
 public class blockRegister extends GameRegistry{
-	
-	public static myBlock huaJiBlock = new myBlock("hua_ji_block").withSettings(1.0f, 10.0f, 0.0f);
-	public static myBlock huaJiIngotBlock = new myBlock("hua_ji_ingot_block").withSettings(2.0f, 20.0f, 0.0f);
 	
 	static void register(myBlock blockIn){
 		GameRegistry.register(blockIn);
@@ -24,15 +21,21 @@ public class blockRegister extends GameRegistry{
 	}
 	
 	public static void myRegister(){
-		huaJiIngotBlock.setHarvestLevel("pickaxe", 1);
-		register(huaJiBlock);
-		register(huaJiIngotBlock);
+		Block.huaJiIngotBlock.setHarvestLevel("pickaxe", 1);
+		Block.huaJiOre.setHarvestLevel("pickaxe", 1);
+		Block.huaJiOreNether.setHarvestLevel("pickaxe", 1);
+		register(Block.huaJiBlock);
+		register(Block.huaJiIngotBlock);
+		register(Block.huaJiOre);
+		register(Block.huaJiOreNether);
 	}
 	
 	public static void myRegisterClient(){
 		//myRegister();
-		setAssets(huaJiBlock);
-		setAssets(huaJiIngotBlock);
+		setAssets(Block.huaJiBlock);
+		setAssets(Block.huaJiIngotBlock);
+		setAssets(Block.huaJiOre);
+		setAssets(Block.huaJiOreNether);
 	}
 	
 }
